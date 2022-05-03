@@ -21,9 +21,11 @@ if (navigator.serviceWorker) {
 function myButtonClicked() {
   const day = document.getElementById("day").checked;
   const age = document.getElementById("age").checked;
-
+  var tuesday = document.getElementById("tuesday")
+  var tuesday = document.getElementById("tuesday")
+  
   // process
-  if ((day == "tuesday" || day == "thursday") || (age > 12 && age < 21)) {
+  if ((day == tuesday || day == thursday) || (age > 12 && age < 21)) {
       document.getElementById("answer").innerHTML= 
         "You're eligible for student pricing.";
   } else {
