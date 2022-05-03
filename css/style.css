@@ -25,24 +25,24 @@ h2 {
   font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 18pt;
-  color: #000000;
+  color: #000;
 }
 
 h3 {
   font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 16pt;
-  color: #000000;
+  color: #000;
 }
 
 p.subheader {
   font-weight: bold;
-  color: #000000;
+  color: #000;
 }
 
 div {
   font-weight: bold;
-  color: #000000;
+  color: #000;
   margin: 5px;
 }
 
@@ -57,12 +57,12 @@ a {
 
 a:link,
 a:visited {
-  color: #000000;
+  color: #000;
 }
 
 a:hover,
 a:active {
-  color: #000000;
+  color: #000;
 }
 
 div.footer {
