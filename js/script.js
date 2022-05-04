@@ -23,7 +23,7 @@ function myButtonClicked() {
   var age = document.getElementById("age").value
   
   // process
-  if ((day == "tuesday" || day == thursday) || (age > 12 && age < 21)) {
+  if ((day == "tuesday" || day == "thursday") || (age > 12 && age < 21)) {
     document.getElementById("answer").innerHTML= 
       "You're eligible for student pricing.";
   } else {
