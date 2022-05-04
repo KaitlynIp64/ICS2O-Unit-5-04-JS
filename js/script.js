@@ -23,11 +23,9 @@ function myButtonClicked() {
   var age = document.getElementById("age").value
   
   // process
-  if ((day == "tuesday" || day == "thursday") || (age > 12 && age < 21)) {
-    document.getElementById("answer").innerHTML= 
-      "You're eligible for student pricing.";
+  if (( day == "tuesday" || day == "thursday") || (age > 12 && age < 21)) {
+      document.getElementById("answer").innerHTML= "You're eligible for student discount."
   } else {
-    document.getElementById("answer").innerHTML= 
-      "You must pay regular price.";
+      document.getElementById("answer").innerHTML= "You must pay regular price."
   }
 }
